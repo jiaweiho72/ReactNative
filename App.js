@@ -1,12 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, View, Image } from 'react-native';
+import { StyleSheet, View, Image, Text } from 'react-native';
+import MusicApp from './src/screens/MusicApp';
+import TicketMaster from './src/screens/TicketMaster';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
       <View>
-        <Image source={require("./assets/mona.png")} />
+        {/* <Image source={require("./assets/mona.png")} />
+        <Text> Hello World </Text> */}
+        {/* <MusicApp></MusicApp> */}
+        <TicketMaster></TicketMaster>
       </View>
       <StatusBar style="auto" />
     </View>
